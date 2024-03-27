@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Infrared Object Detection For Aerial Crafts </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #upload-container {
+            border: 2px dashed #8271EF;
+            background-color: #f7f7f7;
+            padding: 20px;
+            min-width: 500px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #uploadimage {
+            width: 150px;
+            height: auto;
+        }
+
+        #upload-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #upload-section input[type="file"] {
+            display: none;
+        }
+
+        #upload-label {
+            background-color: #8271EF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #upload-label:hover {
+            background-color: #3b3952;
+        }
+
+        #upload-button {
+            background-color: #8271EF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #upload-button:hover {
+            background-color: #3b3952;
+        }
+    </style>
+</head>
+<body>
+    <div id="upload-container">
+        <form class="form-signin" method=post enctype=multipart/form-data name="form1">
+            <div id="upload-section">
+        <br>
+                <label id="upload-label" for="file-upload">Choose a File</label>
+                <input type="file" id="file-upload" name="file">
+                <div id="selected-file-name"></div>
+                <button id="upload-button" type="submit">Upload</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const fileUpload = document.getElementById("file-upload");
+        const selectedFileName = document.getElementById("selected-file-name");
+
+        fileUpload.addEventListener("change", function() {
+            if (fileUpload.files.length > 0) {
+                selectedFileName.textContent = `Selected File: ${fileUpload.files[0].name}`;
+            } else {
+                selectedFileName.textContent = "";
+            }
+        });
+    </script>
+</body>
+</html>

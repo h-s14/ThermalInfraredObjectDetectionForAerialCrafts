@@ -5,7 +5,7 @@ Thermal infrared object detection for aerial crafts is a cutting-edge technology
 
 ## Downloading the Project Repo
 
-The GitHub link for the code is https://github.com/TINOREJI/Thermal-Infrared-Object-Detection-For-Aerial-Crafts
+The GitHub link for the code is https://github.com/h-s14/Thermal-Infrared-Object-Detection-For-Aerial-Crafts
 
 ##  Project
 ->This project is worked with tools like Tensorflow, Flask, and YOLOv8.
@@ -48,24 +48,3 @@ After that, you can run the following command and access the application at 127.
 ```bash
   $ python3 app.py
 ```
-![Screenshot 2023-10-25 043501](https://github.com/TINOREJI/NP/assets/95184183/983bd6ef-3032-459f-b3d8-6a6cc1cad3f5)
-
-
-## Testing WEB Application
-### Upload the Infrared-Thermal Images
-
-![test](https://github.com/TINOREJI/NP/assets/95184183/608cdc1c-010b-4fe9-9fb8-0a5e6dde4e7e)
-
-![test2](https://github.com/TINOREJI/NP/assets/95184183/0a74c8e3-9830-40f9-89df-02b10b77a16c)
-
-![1_60_60_0_00446](https://github.com/TINOREJI/NP/assets/95184183/a0435a7c-d721-47ab-9399-14e82157c589)
-
-## Results/Output
-![test](https://github.com/TINOREJI/NP/assets/95184183/ccc546e7-9de2-4d23-92bf-3e4a730e2e7b)
-
-![test2](https://github.com/TINOREJI/NP/assets/95184183/08b05572-4608-4faa-bd52-8e131d322824)
-
-![image0](https://github.com/TINOREJI/NP/assets/95184183/6c4dc0a0-4bb1-462a-922a-a69d8dd4284a)
-
-
-

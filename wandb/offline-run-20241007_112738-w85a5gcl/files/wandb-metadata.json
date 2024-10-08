@@ -1,0 +1,36 @@
+{
+    "os": "macOS-15.1-arm64-arm-64bit",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-10-07T05:57:39.709282",
+    "startedAt": "2024-10-07T05:57:38.703183",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/h-s14/ThermalInfraredObjectDetectionForAerialCrafts.git",
+        "commit": "6967f2743d7e0bbcfd707e41e04a26d343f387e5"
+    },
+    "email": "14singh.harkirat@gmail.com",
+    "root": "/Users/thispc/Development/Thermal-Infrared-Object-Detection-For-Aerial-Crafts",
+    "host": "Harkirats-MacBook-Air.local",
+    "username": "thispc",
+    "executable": "/opt/miniconda3/envs/test_env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 198.47480010986328
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

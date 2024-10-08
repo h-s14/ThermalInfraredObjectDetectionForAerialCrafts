@@ -1,5 +1,5 @@
 
-path: '../hit-uav'
+path: '/hit-uav'
 train: 'images/train'
 val: 'images/val'
 test: 'images/test'
